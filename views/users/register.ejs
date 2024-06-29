@@ -1,0 +1,43 @@
+<% layout('layouts/boilerplate') %>
+<div class="container mt-5">
+  <div class="row justify-content-center align-items-center">
+      <div class="col-md-6">
+          <div class="card shadow bg-transparent">
+              <img src="https://media.istockphoto.com/id/1164131124/photo/varanasi-holy-manikarnika-ganges-river-ghat-with-ancient-architecture-at-sunset.jpg?s=612x612&w=0&k=20&c=x3EwxJ-hEVMSsdkkIzJIG5cSkSNQJ8r1SjT2Y53bFz0="
+              alt="" class="card-img-top"/>
+              <div class="card-body">
+                  <h5 class="card-title text-center mb-4">Register</h5>
+                  <form action="/register" method="post" class="validated-form" novalidate>
+                    <div class="mb-3">
+                        <label class="form-label" for="username">Username</label>
+                        <input class="form-control" type="text" id="username" name="username" required>
+                        <div class="invalid-feedback">
+                          Please provide a valid username
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="email">Email</label>
+                        <input class="form-control" type="email" id="email" name="email" required>
+                        <div class="invalid-feedback">
+                          Please provide a valid email
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="password">Password</label>
+                        <input class="form-control" type="password" id="password" name="password" required>
+                        <div class="invalid-feedback">
+                          Please provide a valid password
+                        </div>
+                    </div>
+                    <button class="btn btn-success" style="display: block; width: 100%;">Register</button>
+                </form>
+                
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+

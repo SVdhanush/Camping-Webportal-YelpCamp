@@ -1,0 +1,42 @@
+body {
+    background-image: url('https://media.istockphoto.com/id/1368952986/photo/morning-landscape-in-high-tauern-east-tyrol-austria.jpg?s=612x612&w=0&k=20&c=rBgsR56tQtIj1Y5u-XWEHkFkGYKTFZoYoDZhslvDacU=');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.9); /* Adjust the opacity as needed */
+    border: none;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.form-control {
+    border-color: #ccc;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.invalid-feedback {
+    color: red;
+    margin-top: .25rem;
+    font-size: 80%;
+}
